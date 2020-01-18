@@ -1,6 +1,6 @@
 Name:           perl-Test-Script
 Version:        1.07
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Cross-platform basic tests for scripts
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -69,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.07-12
+- Mass rebuild 2013-12-27
+
 * Wed Oct 24 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.07-11
 - Specify all dependencies.
 
